@@ -1737,9 +1737,6 @@
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
   }
-  .text-indigo-900 {
-    color: var(--color-indigo-900);
-  }
   .capitalize {
     text-transform: capitalize;
   }
@@ -2179,11 +2176,6 @@
   }
   .transform-view {
     transform-box: view-box;
-  }
-  .lg\:text-green-700 {
-    @media (width >= 64rem) {
-      color: var(--color-green-700);
-    }
   }
 }
 @keyframes spin {
